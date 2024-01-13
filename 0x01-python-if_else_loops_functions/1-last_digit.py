@@ -5,8 +5,7 @@ if number < 0:
     new_number = number * -1
     last_digit = (-1) * (new_number %10)
 else:
-    last_digit = str(number)[-1]
-    last_digit = int(last_digit_str)
+    last_digit = number[-1]
 if last_digit > 5:
     print(f"Last dagit of {number:d} is {last_digit:d} and is greater than 5")
 elif last_digit == 0:
